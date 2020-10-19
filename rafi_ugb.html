@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Ini Halaman Index</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/main-2.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery-v1-12-4.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">     
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnya">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarnya">
+                    <div class="navbar-nav">
+                        <a class="link" href="#1">Beranda </a>
+                        <a class="link" href="#2">Info </a>
+                        <a onclick="enableAutoplay()" class="link" style="text-decoration:none;" href="#3">Tentang </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <!--batas section 1-->
+        <section class="home" id="1">
+        <div class="container">
+            <div class="row" >
+                <div class="col-12 text-center" style="margin-top: 100px;">
+                    <img src="img/logo2.png" style="text-align: center !important;width: 30%;">
+                </div>
+                <div class="col-12">
+                    <h1 style="margin-top: 50px;" class="heading-1">apa kabar iman kita hari ini?<h1>
+                        <br>
+                        <h2 style="margin-top: 25px;font-size: 19px;color: white;text-align: center; justify-content:" class="heading-2">Dari Abu Hurairah Radhiyallahu anhu bahwa Rasûlullâh Shallallahu ‘alaihi wa sallam bersabda, “Semua umatku akan masuk surga kecuali yang enggan, para Sahabat bertanya, “Wahai Rasûlullâh! Siapakah yang enggan?” Beliau Shallallahu ‘alaihi wa sallam menjawab, “Barangsiapa yang mentaatiku niscaya ia akan masuk surga, dan siapa yang bermaksiat kepadaku maka dia enggan (untuk masuk surga)."<h2></h2>
+                </div>
+            </div>
+        </div>  
+    </section>
+        
+        <!--batas section 2-->
+        <section class="content" id="2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2 class="heading-2 wow fadeInLeftBig animated animated"><b><i>self reminder</i></b></h2>
+                        <br>
+                        <h3 class="heading-3">
+                           Apa kabar iman kita hari ini adalah sebuah pengingat bagi sesama. Bahwasannya hidup bukan seperti permainan yang sudah berakhir bisa di-restart. Oleh karena itu jangan menjadi manusia yang rugi dengan menyia-nyiakan waktu. Sudah cukupkah bekal yang kita bawa untuk pulang?
+                        </h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/logo2.png" width="200px" style="margin-left: 100px;" class="wow fadeInRightBig animated animated">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!--batas section 3-->
+        <section class="content2" id="3">
+            <div class="container">
+                <div class="row">
+                    <h1 class="heading-1" style="text-align:center;font-size: 40px"><b>jazakumullahu khairan</b></h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-4" style="margin-top:20px;">
+                        <div class="col-border">
+                            <i class="fas fa-home fa-3x heading-1"></i>
+                            <h2 class="heading-2" style="font-family: monument">ONE DAY ONE HADITS</h2>
+                            <h3 class="heading-3" style="text-align:justify;margin:20px 10px;color:#fff;">
+                                Satu hari satu hadits. Yuk, mulai menerapkan akidah islam dalam kehidupan sehari-harimu!
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="margin-top:20px;">
+                        <div class="col-border">
+                            <i class="fas fa-home fa-3x heading-1"></i>
+                            <h2 class="heading-2" style="font-family: monument">TENTANG WAKTU</h2>
+                            <h3 class="heading-3" style="text-align:left;margin:20px 10px;color:#fff;">
+                                Manfaatkan lima hal sebelum datangnya lima hal;
+                                <br>
+                                <br>
+                                1. Masa mudamu sebelum datang masa tuamu
+                                <br>
+                                2. Waktu sehatmu sebelum datang sakitmu
+                                <br>
+                                3. Masa cukupmu sebelum datang masa fakirmu
+                                <br>
+                                4. Waktu luangmu sebelum datang waktu sibukmu
+                                <br>
+                                5. Hidupmu sebelum datang matimu
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow flipInX animated animated" style="margin-top:20px;">
+                        <div class="col-border">
+                            <i class="fas fa-home fa-3x heading-1"></i>
+                            <h2 class="heading-2"style="font-family: monument">KREATOR</h2>
+                            <h3 class="heading-3" style="text-align:left;margin:20px 10px;color:#fff;">
+                                Aku adalah penikmat rindu.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <audio id="myAudio" controls style="display: none;">
+  <source src="audio/law kana.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+        <script type="text/javascript" src="js/wow.min.js"></script>        
+        <script type="text/javascript">
+         new WOW().init();
+           var x = document.getElementById("myAudio");
+                     function enableAutoplay() { 
+              x.autoplay = true;
+              x.load();
+            }
+    
+        </script>
+    </body>
+</html> 
